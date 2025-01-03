@@ -1,6 +1,6 @@
-# docker-akcom-udpecho
+# docker-akcom-udpechod
 
-Docker for running [akcom-udpecho](https://github.com/alaskacommunications/akcom-udpecho) daemon 
+Docker for running [akcom-udpechod](https://github.com/alaskacommunications/akcom-udpecho) daemon 
 
 ## Build
 
