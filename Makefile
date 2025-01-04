@@ -13,6 +13,9 @@ bash:
 man:
 	docker exec -it $(CONTAINER_NAME) sh -c "man akcom-udpechod"
 
+test:
+	docker exec -it $(CONTAINER_NAME) sh -c "akcom-udpecho 127.0.0.1"
+
 start:
 	docker start $(CONTAINER_NAME)
 
